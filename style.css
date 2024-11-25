@@ -221,7 +221,7 @@ font-weight:bold;
 { background:url("T2.jpg");
   background-repeat:no-repeat;
   background-size:1740px 980px;
-  
+  overflow: hidden;
 }
 #intro
 { width:350px;
