@@ -2,6 +2,9 @@ var cars=document.getElementById('cars')
 let a=document.getElementById('select');
 var s1=document.getElementById('s1');
 var t2=document.getElementById('t2');
+var rock=document.getElementById('rock');
+var paper=document.getElementById('paper');
+var scissors=document.getElementById('scissors');
 let container=document.getElementById('container');
 let score=document.getElementById('score');
 let buttons=document.getElementById('buttons');
@@ -123,7 +126,10 @@ var k,co;
 
 function scores(val)
 
-{ var m=document.getElementById('player');
+{ rock.disabled=true;
+  paper.disabled=true;
+  scissors.disabled=true;
+  setTimeout(()=>{var m=document.getElementById('player');
 
   var  r=document.getElementById('comp');
 
@@ -136,7 +142,10 @@ function scores(val)
  co=value[Math.floor(Math.random()*3)];
 
   r.innerHTML="<img src='"+co+".jpg' id='gao'>";
-
+rock.disabled=false;
+  paper.disabled=false;
+  scissors.disabled=false;
  count();
+},750);
 
  }
