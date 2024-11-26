@@ -8,6 +8,9 @@
   left:320px;
   display:none;
 }
+#images-container{
+  display:none;
+}
 #intro
 { width:650px;
   height:650px;
@@ -410,4 +413,7 @@ img{
   left:550px;
   display:none;
 }
+#images-container{
+  display:none;
+    }
   }
