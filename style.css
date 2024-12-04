@@ -1,11 +1,14 @@
+*{
+  font-family:Arial,sans-serif;
+}
 #web
 { width:350px;
   height:100px;
-  font-size:65px;
+  font-size:45px;
   font-weight:bolder;
   position:absolute;
   top:1200px;
-  left:320px;
+  left:330px;
   display:none;
 }
 #images-container{
@@ -52,7 +55,7 @@ body
   position:absolute;
   font-size:65px;
   font-weight:bolder;
-  left:650px;
+  left:605px;
   top:610px;
   }
 #player
@@ -76,7 +79,7 @@ img{
 #you
 { position:absolute;
   top:1px;
-  left:85px;
+  left:88px;
   font-size:65px;
     margin-top:65px;
     margin-left:70px;
@@ -119,7 +122,7 @@ img{
   align-items:center;
   position:absolute;
   top:160px;
-  left:63px;
+  left:60px;
   width:350px;
     height:200px;
     font-size:155px;
@@ -135,7 +138,7 @@ img{
   align-items:center;
   position:absolute;
   top:160px;
-  left:227px;
+  left:225px;
 font-weight:bold;
   width:350px;
     height:200px;
@@ -174,7 +177,7 @@ font-weight:bold;
   width:500px;
     height:500px;
     margin-top:350px;
-    margin-left:250px;
+    margin-left:240px;
     font-size:60px;
     font-weight:bolder;
  }
